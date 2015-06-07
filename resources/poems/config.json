@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"title": {
+			"name": "title",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "title",
+			"order": 0
+		},
+		"content": {
+			"name": "content",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "content",
+			"order": 1
+		},
+		"poet": {
+			"name": "poet",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "poet",
+			"order": 2
+		},
+		"secretkey": {
+			"name": "secretkey",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "secretkey",
+			"order": 3
+		}
+	}
+}

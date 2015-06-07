@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Spitcraft - Create a Poem and Share</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic|Merriweather' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style-original.css">
+</head>
+<body>
+    <div id="main-div">
+        <div id="box-div">
+            <div id="logo-div">
+                <img src="/img/spitcraft-logo@2x.png" alt="Spitcraft - Create a Poem and Share" width="224" height="62">
+            </div>
+            <div id="poem-div">
+                <textarea id="poem-textarea" class="active fade-in" placeholder="" ></textarea>
+            </div> <!-- poem-div -->
+            <div id="save-panel-div" class="hide">
+                <div id="save-button-div" class="hide">
+                    <a href="#" id="save-a">Save</a>
+                </div> <!-- save-button-div -->
+                <div id="save-header" class="hide">
+                    Save
+                </div>
+                <div id="save-input-fields">
+                    <div id="title-input-group" class="input-group">
+                        <label for="title-input" class="save-panel-label">
+                            Title
+                        </label>
+                        <div class="save-panel-input-div">
+                            <input id="title-input" class="save-panel-input" type="text" /> 
+                        </div>
+                        <div class="save-panel-btn-div">
+                            <button class="btn" id="title-done-button" disabled>Done</button>
+                        </div>
+                        <div class="save-panel-desc-div">
+                            Give your poem a name.
+                        </div>
+                        <div class="clear"></div>
+                    </div> <!-- save-panel-input-group-div -->
+                    <div id="poet-input-group" class="input-group">
+                        <label for="" class="save-panel-label">
+                            Poet
+                        </label>
+                        <div class="save-panel-input-div">
+                            <input id="poet-input" class="save-panel-input" type="text" disabled/> 
+                        </div>
+                        <div class="save-panel-btn-div">
+                            <button class="btn" id="poet-done-button" disabled>Done</button>
+                        </div>
+                        <div class="save-panel-desc-div">
+                            Aka you.
+                        </div>
+
+                        <div class="clear"></div>
+                    </div> <!-- save-panel-input-group-div -->
+                    <div id="share-input-group" class="input-group">
+                        <label class="save-panel-label">
+                            Copy & Share
+                        </label>
+                        <div id="save-panel-share-div">
+                            <input type="text" class="save-panel-input" id="share-input" readonly /> 
+                        </div>
+                        <div class="save-panel-desc-div" id="share-desc" >
+                            [if android] Press and hold the text above. Click [icon] to copy. Share with someone who gets it.
+                        </div>
+
+                        <div id="feedback-div" class="fade-in is-paused">
+                            <button id="feedback-button">Give Feedback</button>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div> <!-- save-panel-input-group-div -->
+                </div> <!-- save-input-fields -->
+
+            </div> <!-- save-panel-div -->
+
+        </div> <!-- box-div -->
+    </div> <!-- main-div -->
+
+    <script src="/js/spitcraft.js"></script>
+</body>
+</html>
